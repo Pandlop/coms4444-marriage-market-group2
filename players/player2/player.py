@@ -28,11 +28,11 @@ class Player2(BasePlayer):
 	score is at least that best and positive, asks them again, and proposes from
 	the second date on.
 
-  Note: We may want to shorten this period of observing or make it dynamic as our best matches might get married before we decide to start proposing.
-  How can we tell when someone is good for us?
-  Can we see if/when others get married? Maybe also getting proposed to can influence our decision.
-  Maybe consider their type and see how well we match each other's types (since we also take 1/2 of their penalty)
-  Maybe a heap or something to sort who we decide to date again, could keep more than just best score as, if they get married we are looking at no one.
+	Note: We may want to shorten this period of observing or make it dynamic as our best matches might get married before we decide to start proposing.
+	How can we tell when someone is good for us?
+	Can we see if/when others get married? Maybe also getting proposed to can influence our decision.
+	Maybe consider their type and see how well we match each other's types (since we also take 1/2 of their penalty)
+	Maybe a heap or something to sort who we decide to date again, could keep more than just best score as, if they get married we are looking at no one.
 	"""
 
 	def __init__(self, snapshot: PlayerSnapshot, ctx: GameContext) -> None:
